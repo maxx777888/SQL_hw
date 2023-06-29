@@ -2,6 +2,8 @@
 /x86
 /.vs
 *.vs
+/out
+*.out
 /Debug
 /FileContentIndex
 /v17
