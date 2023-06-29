@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "libpqxx-build",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libpqxx-build-Debug-d7ac916bcb44a53ad434.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/judoo/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/My_Projects_VS/\u0414.\u0417. \u0411\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445/HomeWorkToSend/libpqxx-7.7.5"
+				},
+				{
+					"build" : "libpqxx-build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libpqxx-build.src-Debug-83453499961a34008961.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/judoo/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/My_Projects_VS/\u0414.\u0417. \u0411\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445/HomeWorkToSend/libpqxx-7.7.5/src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "libpqxx-build/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libpqxx-build.include-Debug-b7841bdb87c28e67b42b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/judoo/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/My_Projects_VS/\u0414.\u0417. \u0411\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445/HomeWorkToSend/libpqxx-7.7.5/include"
+				},
+				{
+					"build" : "libpqxx-build/test",
+					"jsonFile" : "directory-libpqxx-build.test-Debug-7feeb7cd7e85c905d787.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/judoo/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/My_Projects_VS/\u0414.\u0417. \u0411\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445/HomeWorkToSend/libpqxx-7.7.5/test",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DB_HW_5",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "libpqxx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DB_HW_5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DB_HW_5-Debug-57792233c445fc6f5e7a.json",
+					"name" : "DB_HW_5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pqxx::@376b7f7a0e6c7533911c",
+					"jsonFile" : "target-pqxx-Debug-d49bced146801a2fb11f.json",
+					"name" : "pqxx",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "runner::@8e15c2587bdae1d5f14a",
+					"jsonFile" : "target-runner-Debug-3bdd93b16c45c418afa8.json",
+					"name" : "runner",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/judoo/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/My_Projects_VS/\u0414.\u0417. \u0411\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445/HomeWorkToSend/DB_HW_5/out/build/x64-Debug",
+		"source" : "C:/Users/judoo/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/My_Projects_VS/\u0414.\u0417. \u0411\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445/HomeWorkToSend/DB_HW_5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
