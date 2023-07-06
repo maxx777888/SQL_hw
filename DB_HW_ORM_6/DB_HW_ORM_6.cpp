@@ -278,7 +278,8 @@ int main()
         //Создаем транзакцию
         Wt::Dbo::Transaction t(s);
         //Проверка что пользователь ввел число. 
-        if (is_number(user_ans)) {
+        if (is_number(user_ans)) 
+        {
 
             int pub_id = s.query<int>("SELECT id FROM publisher").where("id = ?").bind(user_ans);
             //Возвращает 0 если такого id не нашлось в таблице
@@ -318,6 +319,9 @@ int main()
 
             }
             t.commit();
+        }
+        else {
+            std::cout << "Unfortunately, there is no such publisher in our database!" << std::endl;
         }
     }
     catch (const std::exception& e) {
